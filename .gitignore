@@ -1,0 +1,41 @@
+# 데이터 파일 (중요: 실제 업무 데이터 보호)
+workspaces/
+closed_reports/
+*.xlsx
+*.xls
+*.csv
+*.html
+*.json
+
+# 예외: 설정 파일은 빈 샘플로 포함 가능
+!classification_rules_sample.json
+
+# Python 캐시
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 가상환경
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit 캐시
+.streamlit/
+
+# 로그
+*.log
