@@ -39,3 +39,6 @@ Thumbs.db
 
 # 로그
 *.log
+
+# 분류 규칙은 포함
+!classification_rules.json
